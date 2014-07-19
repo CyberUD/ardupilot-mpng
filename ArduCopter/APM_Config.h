@@ -17,7 +17,7 @@
   #define SERIAL0_BAUD 57600
   #define SERIAL1_BAUD 57600
   #define SERIAL2_BAUD 115200
-  #define SERIAL2_BAUD 115200
+//  #define SERIAL2_BAUD 115200
 
 // GPS driver selection
 //#define GPS_PROTOCOL GPS_PROTOCOL_NONE
