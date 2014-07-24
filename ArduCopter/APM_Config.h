@@ -15,13 +15,13 @@
 
 // GPS port speed (Serial2) 38400 by default
   #define SERIAL0_BAUD 115200 	 // Bluetooth & Com
-  #define SERIAL1_BAUD 5760	 // Tele oder OSD
-  #define SERIAL2_BAUD 115200 	 // GPS
-  #define SERIAL3_BAUD 5760  // Tele oder OSD
+  #define SERIAL1_BAUD 57600	 // Tele oder OSD
+  #define SERIAL2_BAUD 57600 	 // GPS
+  #define SERIAL3_BAUD 57600  // Tele oder OSD
 
 // GPS driver selection
 //#define GPS_PROTOCOL GPS_PROTOCOL_NONE
-#define GPS_PROTOCOL GPS_PROTOCOL_NMEA
+#define GPS_PROTOCOL GPS_PROTOCOL_AUTO
 /*
 	GPS_PROTOCOL_AUTO   (Default)
 	GPS_PROTOCOL_NONE
